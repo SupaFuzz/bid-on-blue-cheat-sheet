@@ -1,0 +1,187 @@
+<html>
+    <head>
+<style>
+@font-face {
+   font-family: 'Comfortaa';
+   src: url('./Comfortaa.woff2') format("woff2");
+}
+body{
+  font-family: Comfortaa;
+}
+.container {
+  display: grid;
+  place-items: center;
+}
+.subcontainer {
+  width: 85%;
+}
+ul.peeplist li {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: rgba(0,0,255, .05);
+}
+ul.peeplist li:nth-child(odd) {
+  background-color: rgba(0,0,255, .15);
+}
+.redhighlight {
+  font-weight: bolder;
+  color: red;
+}
+ol.steps li {
+  font-family: monospace;
+  margin-bottom: 1.5rem;
+}
+h3.alert {
+  font-family: monospace;
+  background-color: rgba(255, 0, 0, .2);
+  padding: 1.5em;
+  border-radius: 1em;
+  font-weight:  normal;
+}
+
+</style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="subcontainer">
+    <h1 id="cheet-sheet">BID-ON-BLUE 2026 - CHEAT SHEET</h1>
+    <h2>Auctria Support Hotline (833) 578-0757</h2>
+    <h2 id="peeps">TECH PEEPS</h2>
+    <ul class="peeplist">
+        <li><span>Amy Hicox</span>              <span>amy@hicox.com</span>              <span>(256) 479-5293</span></li>
+        <li><span>Thomas Casez</span>           <span>?</span>                          <span>(256) 614-5929</span></li>
+        <li><span>Jack</span>                   <span>?</span>                          <span>?</span></li>
+        <li><span>Julie</span>                  <span>?</span>                          <span>?</span></li>
+        <li><span>Marceline Hutchinson</span>   <span>marcyoatht@gmail.com</span>       <span>(256) 341-3202</span></li>
+        <li><span>Dani Richard</span>           <span>dani.richard@knology.net</span>   <span>(256) 527-9793</span></li>
+    </ul>
+    <h2 id="admin-links">ADMIN LINKS</h2>
+    <ul>
+        <li><a href="https://app.auctria.com/Az/Account/SignIn">Auctria Admin Interface</a></li>
+        <li><a href="https://apps.apple.com/us/app/auctria-admin/id6443909737">Auctria Admin App (iOS)</a></li>
+        <li><a href="https://vimeo.com/859437896">Auctria Admin App Instructional Video</a></li>
+        <li><a href="https://academy.auctria.com/auctria_admin_app/">Auctria Admin App Documentation</a></li>
+        <li><a href="https://vimeo.com/844587156">Auctria Bidding App Instructional Video</a></li>
+        <li><a href="https://academy.auctria.com/mobile_apps/#bidder-app">Auctria Bidding App Documentation</a></li>
+    </ul>
+    <h2 id="participant-links">PARTICIPANT LINKS</h2>
+    <ul>
+    <li>
+        <a href="https://bidonblue2026.auctria.events/">Event Website (tickets &amp; bidding)</a><br>
+        <img src="./bob-26-event-site.svg" width="256" height="256" class="qrCode"/>
+
+    </li>
+    <li>
+        <a href="https://itunes.apple.com/us/app/auctria-mobile-bidding/id1388761108?mt=8&amp;uo=4">Auctria Bidding App (iOS)</a><br/>
+        <img src="./itunes_app_store_bidder.svg" width="256" height="256" class="qrCode"/>
+    </li>
+    <li>
+        <a href="https://play.google.com/store/apps/details?id=com.auctria.bidder">Auctria Bidding App (Android)</a><br />
+        <img src="./android_bidder.svg" width="256" height="256" class="qrCode"/>
+    </li>
+    </ul>
+    <h2 id="known-issue-qr-codes">KNOWN ISSUE - QR CODES</h2>
+    <p>Each item in the silent auction has a QR code for bidding. If the user uses the <em>default operating system camera app on their phone</em> to scan the code, this will take them directly to the item on the event website.</p>
+    <p>If they have not previously logged in (or are using something like iOS&#39;s default private browsing feature) this will require the user to login each time to bid.</p>
+    <p>Alternately, the mobile bidding app (link above) has a QR code icon which will activate the camera from within the Auctria app, bypassing the login session issue on the website.</p>
+    <h2 id="how-to-reset-a-bidder-s-password">how to reset a bidder&#39;s password</h2>
+    <pre><code>you don't even have to, <span class="hljs-keyword">check</span> this <span class="hljs-keyword">out</span>:
+
+    <span class="hljs-number">1</span>) Auctria Dashboard -&gt; participants -&gt; <span class="hljs-keyword">Choose</span> Participant
+       <span class="hljs-keyword">search</span> <span class="hljs-keyword">for</span> the <span class="hljs-keyword">user</span> <span class="hljs-keyword">in</span> question
+
+    <span class="hljs-number">2</span>) note the <span class="hljs-string redhighlight">'Access Code'</span> <span class="hljs-keyword">field</span> <span class="hljs-keyword">on</span> the <span class="hljs-keyword">left</span>, give that <span class="hljs-keyword">to</span> the <span class="hljs-keyword">user</span> <span class="hljs-keyword">and</span> they can login
+    </code></pre>
+
+
+    <h2 id="how-to-check-in-a-bidder">how to check-in a bidder</h2>
+    <p><a href="https://vimeo.com/651720944">Check-In How-To Video</a></p>
+    <ol class="steps">
+        <li>Auctria Dashboard -&gt; Bidders -&gt; Check-In Bidders</li>
+        <li>If the customer has a QR code, and you&#39;ve gotta device with a camera, there&#39;s a button here and you can do that. Else ...</li>
+        <li>search for the bidder in question, then check-in button<br>
+            <em>you should set all the options here like credit card and such first of course</em>
+        </li>
+    </ol>
+
+
+    <h2 id="how-to-place-a-bid-on-behalf-of-a-bidder">how to place a bid on behalf of a bidder</h2>
+    <h3 class="alert"><i>NOTE: these links have moved and curently don't work. I've gotta ticket open with Auctria to get new links 2/15/26 - Amy</i></h3>
+    <ul>
+    <li><p><a href="https://guide.auctria.com/how_to/event_running/record_bid">Record a Bid documentation</a></p>
+    </li>
+    <li><p><a href="https://guide.auctria.com/how_to/event_running/quick_bid_entry/">Quick Bids (closing items out directly) documentation</a></p>
+    </li>
+    </ul>
+
+
+    <h2 id="how-to-take-a-donation">how to take a donation</h2>
+    <ul>
+    <li><a href="https://academy.auctria.com/actions_donations/record_donations/?r=1">Record a Donation documentation</a></li>
+    </ul>
+
+
+    <h2 id="how-to-sell-a-buy-it-now-item">how to sell a &quot;buy it now&quot; item</h2>
+    <ul>
+    <li><a href="https://academy.auctria.com/actions_sales/?r=1">Sales Dashboard documentation</a></li>
+    </ul>
+
+
+
+    <h2 id="how-to-check-out-a-bidder">how to check out a bidder</h2>
+    <ul>
+    <li><a href="https://vimeo.com/916100649">comprehensive check-out instructional video</a></li>
+    <li><a href="https://academy.auctria.com/actions_checkout/">check-out documentation</a></li>
+    <li><a href="https://academy.auctria.com/getting_started/event_closing">event closing documentation</a></li>
+    </ul>
+
+
+    <h2 id="how-to-edit-or-delete-a-transaction">how to edit or delete a transaction</h2>
+    <p>A <span class="redhighlight">transaction</span> is a Buy It Now Purchase, a Donation, or a Bid. It may become necessary to edit or delete these things. Here&#39;s how to do that.</p>
+    <ul>
+    <li><a href="https://academy.auctria.com/actions_bidding/editing_transactions/?r=1">editing transactions documentation</a></li>
+    </ul>
+
+
+    <h2 id="how-to-refund-a-credit-card">how to refund a credit card</h2>
+    <p>Important things to know:</p>
+    <ul>
+    <li><strong>credit card refunds are not real-time.</strong> refunds will take a day or two to process</li>
+    <li><p><strong>deleting a transaction does not delete the charge</strong>  so in the case someone won an auction they shouldn&#39;t have won, or purchased the wrong &quot;buy it now&quot; item -- we have to delete the transaction <strong>and</strong> process the refund separately as detailed below:</p>
+    </li>
+    <li><p>credit card refund in full</p>
+    <ul>
+    <li><p><a href="https://vimeo.com/311226961">video</a></p>
+    </li>
+    <li><p><a href="https://academy.auctria.com/credit_cards/refunds">documentation</a></p>
+    </li>
+    </ul>
+    </li>
+    <li><p>credit card refund (partial)</p>
+    <ul>
+    <li><p><a href="https://vimeo.com/311225528">video</a></p>
+    </li>
+    <li><p><a href="https://academy.auctria.com/credit_cards/refunds_partial">documentation</a></p>
+    </li>
+    </ul>
+    </li>
+    <li><p><a href="https://academy.auctria.com/actions_checkout/issuing_refunds/?r=1">Documentation for refunds (including non-credit-card refunds and all of the above)</a></p>
+    </li>
+    </ul>
+    <h2 id="event-program">EVENT PROGRAM</h2>
+    <h3 class="alert"><i>NOTE: this schedule isn't finalized, but it's probably pretty close 2/15/26 - Amy</i></h3>
+    <ul>
+    <li>4:30pm | volunteers arrive at VBC</li>
+    <li>5:30pm | doors open <em>check-in begins</em></li>
+    <li>7:00pm | diner </li>
+    <li>7:35pm | announcement silent auction ending in 10 min</li>
+    <li>7:45pm | silent auction ends</li>
+    <li>7:50pm | live auction begins <em>will need to enter manual bids after</em></li>
+    <li>8:15 | live auction ends <em>check-out begins</em></li>
+    <li>8:15 | the ask <em>enter manual donations, display leaderboard on screen</em></li>
+    <li>08:30 | Steve Hofstetter Show</li>
+    <li>9:30 | show&#39;s over, event&#39;s done <em>check-out ends</em></li>
+    </ul>
+</div>
+</div>
+</body>
