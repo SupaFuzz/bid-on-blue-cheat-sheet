@@ -15,6 +15,32 @@ body{
 .subcontainer {
   width: 85%;
 }
+.getit {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.getit .gfx {
+  background: url('./rebel-loon-custom.svg');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+  padding: 2rem;
+}
+.getit .wrds {
+  align-content: center;
+  margin-left: .5rem;
+}
+.getit h2, .getit h3 {
+  margin: 0;
+  padding: 0;
+}
+.getit h2 {
+  color: rgba(59,104,171, .66);
+}
+.getit h3 {
+  font-style: italic;
+  opacity: .5;
+}
 ul.peeplist li {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -38,6 +64,22 @@ h3.alert {
   border-radius: 1em;
   font-weight:  normal;
 }
+.mealcode {
+  display: inline-block;
+  width: 5rem;
+  padding: .25rem;
+  border-radius: .5rem;
+  margin: .5rem;
+}
+.mealcode.orange {
+  background-color: orange;
+}
+.mealcode.blue {
+  background-color: rgba(59,104,171, .66);
+}
+.mealcode.green {
+  background-color: rgb(154,218,127);
+}
 
 </style>
     </head>
@@ -45,6 +87,13 @@ h3.alert {
         <div class="container">
             <div class="subcontainer">
     <h1 id="cheet-sheet">BID-ON-BLUE 2026 Fri, 3/27/26 @ 1800 - CHEAT SHEET</h1>
+    <div class="getit">
+        <div class="gfx">&nbsp;</div>
+        <div class="wrds">
+            <h2>sometimes resistance looks like throwing a fabulous party</h2>
+            <h3>RELAX, don't forget to have a good time!</h3>
+        </div>
+    </div>
     <h2>Auctria Support Hotline (833) 578-0757</h2>
     <h2 id="peeps">TECH PEEPS</h2>
     <ul class="peeplist">
@@ -58,6 +107,9 @@ h3.alert {
         <li><span>Max Ritter</span>             <span>mjr0390@uah.edu</span>            <span>651-442-6686</span></li>
         <li><span>Karen Gann</span>             <span>klgann@gmail.com</span>           <span>256-603-1747</span></li>
     </ul>
+
+
+
     <h2 id="admin-links">ADMIN LINKS</h2>
     <ul>
         <li><a href="https://app.auctria.com/Az/Account/SignIn">Auctria Admin Dashboard (web console)</a></li>
@@ -92,6 +144,15 @@ h3.alert {
         <img src="./android_bidder.svg" width="256" height="256" class="qrCode"/>
     </li>
     </ul>
+
+
+    <h2 id="meal-tix">MEAL TICKET COLOR CODING</h2>
+    <ul>
+        <li><strong class="mealcode orange">Orange</strong> - Chicken Marsala</li>
+        <li><strong class="mealcode blue">Blue</strong> - Pecan-Encrusted Trout</li>
+        <li><strong class="mealcode green">Green</strong> - Vegetable Wellington</li>
+    </ul>
+
     <h2 id="known-issue-qr-codes">KNOWN ISSUE - QR CODES</h2>
     <p>Each item in the silent auction has a QR code for bidding. If the user uses the <em>default operating system camera app on their phone</em> to scan the code, this will take them directly to the item on the event website.</p>
     <p>If they have not previously logged in (or are using something like iOS&#39;s default private browsing feature) this will require the user to login each time to bid.</p>
